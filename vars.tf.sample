@@ -1,0 +1,31 @@
+variable "vsphere_user"         {
+  default = "administrator@vsphere.local"
+}
+variable "vsphere_password"     {
+  default = "your_password"
+}
+variable "vsphere_server"       {
+  default = "vcenter.local"
+}
+variable "vsphere_datacenter"   {
+  default = "GXR"
+}
+variable "vsphere_cluster"      {
+  default = "GXR-Primary"
+}
+variable "vsphere_datastore"    {
+  default = "esx2_vms_nvme1"
+}
+variable "vsphere_iso_datastore"    {
+  default = "esx_WC_NFS"
+}
+variable "vsphere_resourcepool" {
+  default = "OCP42"
+}
+variable "vsphere_network" {
+  default = "VM_vlan20"
+}
+
+variable "vsphere_template" {
+  default = ""
+}
